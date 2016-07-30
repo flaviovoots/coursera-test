@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+
+div .container {
+	position: relative;
+	background-color: #CC6841;
+	border: 10px solid white;
+}
+
+h1 {
+	background-color: white;
+	color: black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 20px 1px 50px 1px;
+	text-align: center;
+}
+
+h2 {
+	border: 1px solid black;
+	background-color: #d9d9d9;
+	margin: 0px 0px 10px 0px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 1px 20px 1px 20px;
+}
+
+p {
+	border: 1px;
+	width: 80%;
+	height: 95%;
+	margin: 50px auto 5px auto;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+}
+
+.row {
+	width: 100%;
+}
+
+/**** Desktop Version ****/
+@media (min-width: 992px) { 
+	.col-lg-4 {
+	float: left;
+	border: 1px;
+}
+.col-lg-4 {
+	width: 33.33%;
+}
+}
+
+
+/**** Tablet Versipn ****/
+@media (min-width: 768px) and (max-width: 991px) { 
+	.col-md-6, .col-md-12 {
+	float: left;
+	border: 5px;
+}
+.col-md-6 {
+	width: 50%;
+}
+.col-md-12 {
+	width: 100%;
+}
+}
+
+/**** Mobile version ****/
+@media (max-width: 767px) {
+	.col-xs-12 {
+	float: left;
+	border: 5px;
+}
+.col-xs-12 {
+	width: 100%;
+}
+} 
+
+.c {
+	background-color: cyan;
+	color: black;
+}
+.b {
+	color: #00994d;
+}
+.s {
+	background-color: #ffff99;
+	color: #6666ff;
+}
